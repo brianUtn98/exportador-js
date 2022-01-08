@@ -1,0 +1,37 @@
+{
+  "name": "exportador-pdf-excel",
+  "version": "1.0.0",
+  "description": "Modulo exportador de Texto/HTML a PDF o Excel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianUtn98/exportador-js.git"
+  },
+  "keywords": [
+    "pdf",
+    "excel",
+    "export",
+    "html",
+    "string"
+  ],
+  "author": "Brian Monroy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianUtn98/exportador-js/issues"
+  },
+  "homepage": "https://github.com/brianUtn98/exportador-js#readme",
+  "dependencies": {
+    "exceljs": "^4.3.0",
+    "html-pdf-node": "^1.0.8",
+    "jspdf": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
