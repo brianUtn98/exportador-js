@@ -11,7 +11,7 @@ class Exportador{
     }
 
     exportar(){
-        this.estrategia.exportar(this.exportable);
+        return this.estrategia.exportar(this.exportable);
     }
 
     cambiarModo(estrategia: EstrategiaExportacion){

@@ -7,6 +7,7 @@ class AdapterExceljs implements AdapterExcel{
         /**
          * Implementacion
          */
+        
         return "una ruta";
     }
 }
